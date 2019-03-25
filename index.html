@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Lais Abreu - Portfólio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="src/css/style.css">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <header>  
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <!-- logo ou nome do projeto -->
+      <a class="navbar-brand" href="#">Lais Abreu - Portfólio</a>
+      <!-- Menu responsivo ou hamburguinho -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+        aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Subnavegação -->
+      <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+        <!-- Itens do menu -->
+        <ul class="navbar-nav mr-auto">
+          <!-- cada link do menu -->
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sobre Mim</a>
+          </li>
+          <!-- cada link do menu -->
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfólio</a>
+          </li>
+          <!-- cada link do menu -->
+          <li class="nav-item">
+            <a class="nav-link" href="#">Orçamento</a>
+          </li>
+          <!-- cada link do menu -->
+          <!-- começa o menu dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">Contato</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <!-- opções do menu dropdown -->
+              <a class="dropdown-item" href="https://www.linkedin.com/in/lais-abreu-54416a145/"
+                target="_blank">LinkedIn</a>
+              <a class="dropdown-item" href="https://github.com/laisaabreu" target="_blank">GitHub</a>
+              <a class="dropdown-item" href="https://codepen.io/laisaabreu/#" target="_blank">CodePen</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="pages/currículo.html" target="_blank">Currículo</a>
+            </div>
+          </li>
+          <!-- item do menu desabilitado 
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Desativado</a>
+          </li>
+          -->
+        </ul>
+        <!-- barra de search
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+        </form>
+        -->
+      </div>
+
+    </nav>
+
+  </header>
+
+  <section class="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="src/assets/imagens/car-01.jpg" alt="Primeiro Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="src/assets/imagens/car-02.jpg" alt="Segundo Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="src/assets/imagens/car-03.jpg" alt="Terceiro Slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="container">
+      <h2 class="display-4 text-center">Sobre Mim</h2>
+      <div class="text-center">
+        <!-- classe utilizada para deixar a imagem responsiva e ajustar a largura dela -->
+        <img src="src/assets/imagens/eu.jpg" class="img-fluid w-25 p-3" alt="Foto de Lais Abreu">
+      </div>
+      <p class="text-justify">Programadora front-end e confeiteira. Por amar as duas áreas estou me especializando em
+        ambas. Iniciei meus estudos em programação no ano de 2018 quando fiz um Workshop da Reprograma e, dentre 180
+        pessoas, fui uma das 30 selecionadas para o primeiro Curso Online de Front-End Developer. Me interesso muito por
+        tudo o que me desafia e sinto muito isso tanto na confeitaria quanto na programação. Antes de entrar nessas
+        áreas eu trabalhava como Auxiliar Administrativa e já atuei em diversos setores (Recursos Humanos, Tecnologia e
+        Informação, Gestão de Numerário e Escritório). Apesar da maioria das pessoas falarem que tecnologia e
+        confeitaria são coisas completamente distintas eu discordo! Uma desenvolvedora deve se atentar aos mínimos
+        detalhes assim como uma confeiteira. Espero conseguir conciliar essas duas coisas e poder entregar trabalhos
+        maravilhosos.</p>
+    </div>
+  </section>
+
+  <section class="portfolio">
+    <div class="container">
+      <h2 class="display-4 text-center">Portfólio</h2>
+      <p class="text-justify">Projetos desenvolvidos durante a {Reprograma}, entre Janeiro e Abril de 2019. A reprograma
+        tem a proposta de inserir mulheres na área da tecnologia e suas recolocações no mercado de trabalho. Para isso
+        elas oferecem cursos presenciais e onlines onde ensinam como programar desde os primeiros passos. As aulas são
+        compostas por aulas teóricas e desafios práticos onde contamos com auxílio de monitoras/professoras para tirar
+        nossas dúvidas. Assim que finalizado o curso atualizarei os projetos abaixo para acrescentar tudo o que aprendi
+        com elas.</p>
+
+      <!-- row utilizado para deixar os cards na mesma linha e não embaixo do outro -->
+      <div class="row d-flex justify-content-between">
+        <!-- início do card 1 -->
+        <div class="card col-sm" style="width: 18rem; margin-left: 15px; padding-top: 10px;">
+          <img class="card-img-top images_card h-50" src="src/assets/imagens/workshop.JPG"
+            alt="Print com uma parte da página criada no Workshop da Reprograma">
+          <div class="card-body">
+            <h5 class="card-title">Página Pessoal - Workshop</h5>
+            <p class="card-text">Criação de uma nova página pessoal básica e simples.</p>
+            <!-- botão para funcionar o modal -->
+            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo">Leia mais...</a>
+            <!-- Modal -->
+            <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <!-- título do modal -->
+                    <h5 class="modal-title" id="exampleModalLabel">Página Pessoal - Workshop</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <!-- corpo de texto do modal -->
+                  <div class="modal-body">
+                    Trabalho que desenvolvemos no Workshop de Front-End. Na página foi utilizado apenas o básico de HTML
+                    e CSS. A página irá sofrer alterações assim que eu concluir o curso online pois vou aplicar o que
+                    aprendi nela.<br><a href="https://laisabreu.netlify.com/" target="_blank">Visite</a>
+                  </div>
+                  <!-- botões do modal -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- início do card 2 -->
+        <div class="card col-sm" style="width: 18rem; margin-left: 15px; padding-top: 10px;">
+          <img class="card-img-top h-50 images_card" src="src/assets/imagens/responsividade.JPG"
+            alt="Print com uma parte da página criada na primeira aula do curso online da Reprograma">
+          <div class="card-body">
+            <h5 class="card-title">Responsividade</h5>
+            <p class="card-text">Página responsiva criada na primeira aula do curso online da Reprograma.</p>
+            <!-- botão para funcionar o modal -->
+            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo2">Leia mais...</a>
+            <!-- Modal -->
+            <div class="modal fade" id="modalExemplo2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <!-- título do modal -->
+                    <h5 class="modal-title" id="exampleModalLabel">Responsividade</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <!-- corpo de texto do modal -->
+                  <div class="modal-body">Projeto desenvolvido como lição de casa da primeira aula do curso online da Rerograma. Na aula nos foi ensinado como fazia um página responsiva e depois só colocamos na prática.<br><a href="https://licao1laisabreu.netlify.com/" target="_blank">Visite</a>
+                  </div>
+                  <!-- botões do modal -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- início do card 3 -->
+        <div class="card col-sm" style="width: 18rem; margin-left: 15px; padding-top: 10px;">
+          <img class="card-img-top h-50 images_card" src="src/assets/imagens/aula1.JPG"
+            alt="Print com uma parte da página criada na primeira aula do curso da Reprograma">
+          <div class="card-body">
+            <h5 class="card-title">Primeira aula - curso online Reprograma</h5>
+            <p class="card-text">Exemplo feito no curso online de Front-End.</p>
+            <!-- botão para funcionar o modal -->
+            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo3">Leia mais...</a>
+            <!-- Modal -->
+            <div class="modal fade" id="modalExemplo3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <!-- título do modal -->
+                    <h5 class="modal-title" id="exampleModalLabel">Primeira aula - curso online Reprograma</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <!-- corpo de texto do modal -->
+                  <div class="modal-body">
+                    Projeto desenvolvido na primeira aula do curso online de Front-End da Reprograma. O objetivo era tranformar a página em responsiva, assim fizemos alterações apenas no CSS.<br><a href="https://rep1-laisabreu.netlify.com/" target="_blank">Visite</a>
+                  </div>
+                  <!-- botões do modal -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="container">
+      <h2 class="display-4 text-center">Orçamento</h2>
+      <p class="text-center">Faça conosco seu orçamento, sem compromisso!</p>
+      <!-- início do formulário -->
+      <form>
+        <!-- cada opção do formulário -->
+        <div class="form-group">
+          <label for="formGroupExampleInput">Nome</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Digite seu nome">
+        </div>
+        <!-- cada opção do formulário -->
+        <div class="form-group">
+          <label for="formGroupExampleInput2">E-mail</label>
+          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="digite@seu.email.com.br">
+        </div>
+        <!-- cada opção do formulário -->
+        <div class="form-group">
+          <label for="formGroupExampleInput3">Telefone</label>
+          <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="(00) 00000-0000">
+        </div>
+        <!-- cada opção do formulário -->
+        <div class="form-group">
+          <label for="formGroupExampleInput4">Fale Comigo</label>
+          <textarea class="form-control" id="formGroupExampleInput4" placeholder="Escreva sua mensagem"></textarea>
+        </div>
+        <!-- botão para enviar a mensagem -->
+        <button type="submit" value="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

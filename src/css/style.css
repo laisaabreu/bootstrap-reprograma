@@ -1,0 +1,32 @@
+.about {
+  display: flex;
+  align-items: center;
+}
+
+#imageAbout {
+  border-radius: 70%;
+  text-align: center;
+}
+
+/* media para ajustar a altura da foto do sobre nas telas maiores */
+@media (min-width: 1000px) {
+  #imageAbout {
+    height: 260px;
+  }
+}
+
+.progress-title {
+  font-size: 25px;
+  padding-top: 15px;
+}
+
+.footerDescrition {
+  display: flex;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+  justify-content:  space-between;
+  padding-top: 10px;
+}
+
+/* início da estilização da linha do tempo */
