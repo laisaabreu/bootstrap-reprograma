@@ -21,7 +21,8 @@ button.addEventListener('click', function(evento) {
   } else if (email.value === undefined ||
     email.value === null ||
     email.value.trim() === "" ||
-    email.value.length<0) {
+    email.value.length<0 ||
+    email.value.indexOf('@') === -1) {
       email.focus();
       alert('Preencha o e-mail corretamente.')
       return false;
@@ -39,5 +40,7 @@ button.addEventListener('click', function(evento) {
       message.focus();
       alert('Preencha a mensagem corretamente.')
       return false;
-  }
+  } else (
+    alert('Mensagem enviada com sucesso!')
+  )
 })
